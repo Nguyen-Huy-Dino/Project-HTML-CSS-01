@@ -74,12 +74,43 @@
     .separate {
         border-top: 1.5px solid #b0aeae;
     }
-    
+
+    .hero-wrap .info {
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .hero-wrap .desc {
+        width: 80%;
+        text-align: center;
+        margin: 30px auto auto;
+    }
+
+    .hero-img {
+        display: none;
+    }
+
+    .clients .images {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .guides .guide-item {
+        flex: 1;
+        margin: 0;
+    }
+
+    .featured .list {
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 /* Tablet */
 @media screen and (min-width: 768px) and (max-width: 991px) {
-    
+    .show-on-mobile {
+        display: none;
+    }
 }
 
 /* Mobile */
@@ -88,7 +119,7 @@
         inset: 0 25% 0 0;
         padding: 40px;
     }
-    .navbar .action {
+    .navbar .actions {
         display: none;
     }
 }
