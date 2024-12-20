@@ -80,6 +80,7 @@
             content="./assets/favicon/ms-icon-144x144.png"
         />
         <meta name="theme-color" content="#ffffff" />
+
         <link rel="stylesheet" href="./assets/css/reset.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -90,6 +91,21 @@
         <link rel="stylesheet" href="./assets/fonts/stylesheet.css" />
         <link rel="stylesheet" href="./assets/css/styles.css" />
         <link rel="stylesheet" href="./assets/css/responsive.css" />
+        
+        <!-- Google tag (gtag.js) -->
+        <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-ENGCJV4Z7R"
+        ></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
+
+            gtag("config", "G-ENGCJV4Z7R");
+        </script>
     </head>
 
     <body>
@@ -210,7 +226,9 @@
                         <p class="desc">
                             More than 45,000+ companies trust besnik
                         </p>
-                        <p class="desc hiden-rating">5 Star Ratings (2k+ Review)</p>
+                        <p class="desc hiden-rating">
+                            5 Star Ratings (2k+ Review)
+                        </p>
                     </div>
 
                     <div class="images">
@@ -471,7 +489,7 @@
                         </div>
                     </div>
 
-                    <div class="view-all show-on-mobile ">
+                    <div class="view-all show-on-mobile">
                         <a href="#!" class="btn">View All Properties</a>
                     </div>
                 </div>
